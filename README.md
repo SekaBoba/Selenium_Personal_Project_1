@@ -1,4 +1,5 @@
-This project covers strict basics for automation with selenium+python, but please don’t hesitate to call one of your mentors for support if you need it!
+This project covers strict basics for automation with selenium+python
+https://sampleapp.tricentis.com/101/index.php#
 
 
 
