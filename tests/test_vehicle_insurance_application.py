@@ -10,6 +10,7 @@ class TestProject1:
         base_page.open()
         assert base_page.is_get_your_header_displayed()
 
-
+   # def test2_random_date_shown_in_input_field(self, driver):
+   # def test3_confirm_all_mandatory_fields_are_populated(self, driver):
 
 
