@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a74e655d-8e1e-4cab-ad47-16bf5c40df47" name="Changes" comment="Selenium_Personal_Project_1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/enter_vehicle_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/enter_vehicle_data_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_vehicle_insurance_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_vehicle_insurance_application.py" afterDir="false" />
-    </list>
+    <list default="true" id="a74e655d-8e1e-4cab-ad47-16bf5c40df47" name="Changes" comment="Selenium_Personal_Project_1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728566799881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Selenium_Personal_Project_1">
+      <option name="closed" value="true" />
+      <created>1728996027149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728996027149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Selenium_Personal_Project_1">
+      <option name="closed" value="true" />
+      <created>1728996042984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728996042984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
