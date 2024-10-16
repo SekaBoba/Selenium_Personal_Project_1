@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a74e655d-8e1e-4cab-ad47-16bf5c40df47" name="Changes" comment="Selenium_Personal_Project_1" />
+    <list default="true" id="a74e655d-8e1e-4cab-ad47-16bf5c40df47" name="Changes" comment="Selenium_Personal_Project_1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/enter_vehicle_data_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/enter_vehicle_data_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_vehicle_insurance_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_vehicle_insurance_application.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,8 @@
     "Python.main.executor": "Run",
     "Python.scratch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/slobodanka.mihajlov/pytestProjects/Selenium_Personal_Project_1"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -63,7 +69,7 @@
       <recent name="C:\Users\slobodanka.mihajlov\pytestProjects\Selenium_Personal_Project_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_vehicle_insurance_application.TestProject1.test2_random_date_shown_in_input_field">
+  <component name="RunManager" selected="Python tests.debug">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Selenium_Personal_Project_1" />
       <option name="ENV_FILES" value="" />
@@ -148,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;-m debug&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-m debug  --html\u003dreports/report.html -n\u003d3&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_vehicle_insurance_application.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
@@ -162,10 +168,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_vehicle_insurance_application.TestProject1.test2_random_date_shown_in_input_field" />
-        <item itemvalue="Python.scratch" />
         <item itemvalue="Python tests.debug" />
+        <item itemvalue="Python tests.Python tests for test_vehicle_insurance_application.TestProject1.test2_random_date_shown_in_input_field" />
         <item itemvalue="Python tests.Python tests for test_vehicle_insurance_application.TestProject1.test1_confirm_vehicle_insurance_application_is_opened" />
+        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -217,22 +223,19 @@
       <option name="project" value="LOCAL" />
       <updated>1728996042984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenium_Personal_Project_1">
+      <option name="closed" value="true" />
+      <created>1728996474682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728996474682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium_Personal_Project_1" />
     <option name="LAST_COMMIT_MESSAGE" value="Selenium_Personal_Project_1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/page_objects/enter_vehicle_data_page.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

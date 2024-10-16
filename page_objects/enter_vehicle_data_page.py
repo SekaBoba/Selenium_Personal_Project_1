@@ -12,6 +12,8 @@ class Enter_vehicle_data_page(BasePage):
 
     __date_of_manufacture_input_field=(By.XPATH,"//input[@id='dateofmanufacture']")
 
+    __date_of_manufacture_input_field_populated_icon=(By.XPATH,"//div[@class='field idealforms-field idealforms-field-text valid']/i[@class='icon']")
+
     __number_of_seats= (By.XPATH,"//select[@id='numberofseats']")
     __number_of_seats_option = (By.XPATH,"//select[@id='numberofseats']/option[@value='6']")
     __fuel_type_select=(By.XPATH,"//select[@id='fuel']")
@@ -43,10 +45,14 @@ class Enter_vehicle_data_page(BasePage):
         super()._type(self.__license_plate_number_input_field, license_plate_number)
         super()._type(self.__annual_mileage_input_field,annual_mileage)
         assert super()._is_displayed(self.__enter_vehicle_data_0)
-        #super()._click(self.__next_button)
 
-    """def set_date_of_manufacute(self, yesterday:str):
-        super()._click(self.__date_of_manufacture_button)
-        yesterday = date.today() - timedelta(days=1)
-        yesterday_input=yesterday.strftime("%d/%m/%Y")
-        super()._type(self.__date_of_manufacture_input_field, yesterday_input)"""
+
+
+    @property
+    def set_yesterday_date_of_manufacute(self)->str:
+        return (date.today() - timedelta(days=1)).strftime("%m/%d/%Y")
+
+    def set_date_of_manufacute(self)->str:
+        super()._type(self.__date_of_manufacture_input_field, self.set_yesterday_date_of_manufacute)
+        assert super()._is_displayed(self.__date_of_manufacture_input_field_populated_icon)
+

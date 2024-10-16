@@ -22,7 +22,7 @@ class BasePage:
     def _find(self, locator: tuple) -> WebElement:
         return self._driver.find_element(*locator)
 
-    def _type(self, locator: tuple, text: str, time: int = 10):
+    def _type(self, locator: tuple, text: str, time: int = 10) -> object:
        # self._wait_until_element_is_visible(locator, time)
         self._find(locator).send_keys(text)
 
